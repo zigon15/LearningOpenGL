@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\zEngine">
+      <UniqueIdentifier>{b59ea0b0-dcd9-4c34-a5ef-1ca4d18b4505}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\zEngine">
+      <UniqueIdentifier>{2f77050e-1a95-461b-ab82-bbc978368f4a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\glad\src\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\zEngine\src\zEngine.cpp">
+      <Filter>Source Files\zEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\zEngine\src\VAO.cpp">
+      <Filter>Source Files\zEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\zEngine\src\VBO.cpp">
+      <Filter>Source Files\zEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\zEngine\src\shader.cpp">
+      <Filter>Source Files\zEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\zEngine\src\EBO.cpp">
+      <Filter>Source Files\zEngine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lib\zEngine\inc\zEngine.h">
+      <Filter>Header Files\zEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\zEngine\inc\VAO.h">
+      <Filter>Header Files\zEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\zEngine\inc\VBO.h">
+      <Filter>Header Files\zEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\zEngine\inc\shader.h">
+      <Filter>Header Files\zEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\zEngine\inc\EBO.h">
+      <Filter>Header Files\zEngine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
